@@ -21,12 +21,16 @@ Converted text data to sequences using Tokenizer
 
 Created padded sequences for consistent input size
 
+
+
 2. Feature Extraction using CNN (Pretrained Model)
 Used InceptionV3 (or ResNet50) as a feature extractor
 
 Removed the last fully connected layer and extracted feature vectors
 
 Stored extracted features in a dictionary for faster processing
+
+
 
 3. Text Processing using LSTM
 Embedded words into vector space using Word Embeddings (GloVe/Word2Vec)
@@ -37,6 +41,8 @@ Input: Extracted image features + processed text sequences
 
 Output: Predicted next word in the caption
 
+
+
 4. Model Training
 Used Categorical Cross-Entropy Loss for training
 
@@ -46,6 +52,8 @@ Monitored training loss and adjusted hyperparameters (learning rate, batch size,
 
 Performed teacher forcing for efficient training
 
+
+
 5. Caption Generation & Inference
 Processed a test image through the trained CNN-LSTM pipeline
 
@@ -53,8 +61,12 @@ Generated captions by predicting one word at a time
 
 Used Beam Search Decoding for improved caption generation
 
+
+
 6. Evaluation Metrics
 Evaluated the model using BLEU scores to assess caption quality
+
+
 
 7. Deployment & Future Improvements
 Deployed as a simple Flask Web App for user interaction
