@@ -52,8 +52,8 @@ This project implements an Image Caption Generator using a CNN (Convolutional Ne
 ### Prerequisites
 Install the required libraries:
 
-```![Open In Colab]
-(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/venu284/Image-Caption-Generator-using-CNN-and-NLP/blob/main/notebooks/Image_Caption_Generator.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/venu284/Image-Caption-Generator-using-CNN-and-NLP/blob/main/notebooks/Image_Caption_Generator.ipynb)
+
 
 
 ```bash
