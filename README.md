@@ -55,3 +55,6 @@ Install the required libraries:
 ```bash
 pip install tensorflow numpy pandas matplotlib nltk keras tqdm
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/venu284/Image-Caption-Generator-using-CNN-and-NLP/blob/main/notebooks/Image_Caption_Generator.ipynb)
+
+
